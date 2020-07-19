@@ -1,0 +1,147 @@
+body,html{
+    height: 100%;
+    width: 100%;
+}
+h3{
+    margin-top: 8px;
+    font-style: italic;
+    font-size: 25px;
+    font-weight: bold;
+    color: purple;
+}
+.navbar{
+    margin-bottom: 0px;
+}
+.navbar-right{
+    font-size: 20px; font-style: italic; }
+.color_me{
+    color: purple;
+}
+.nav>li>a:focus, .nav>li>a:hover,#foot_er1>center>h3>a:hover {
+        text-decoration: none;
+        background-color: transparent !important;
+        color: lightcoral;
+      }
+      .banner_image{
+     text-align: center;
+    background: url(img/modal-bg.jpg);
+    height: 50%;
+    }
+    .modal-header{
+        color:purple;
+        font-style:  italic;
+        font-weight: bolder;
+    }
+    
+    #class_button{
+        border-color: gray;
+        background-color: bisque;
+    }
+    #form_border_color{
+        border-color: gray;
+    }
+    #front_img{
+        background-image: url(img/fi1.jpg) ;
+        height: 70%;
+        background-repeat: no-repeat;
+      background-size: contain;
+      padding-left: 0%;
+     }
+     #front_text{
+         padding-top: 10%;
+         padding-right : 5%;
+        font-family: Courier, monospace;
+        color: lightcoral;
+         font-weight: bolder;
+        text-align-last: right;
+         text-align: right;
+         font-size: 50px;
+     }
+     #color_pink{
+         color:purple;
+     }
+     
+     .subj{
+         padding-top: 2%;
+         color: mediumvioletred;
+         font-family: Courier, monospace;
+         font-size: 40px;
+         font-weight: 400;
+     }
+         .image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 30%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+     .text {
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 18px;
+}
+.he:hover .middle {
+  opacity: 1;
+}
+.he:hover .image {
+  opacity: 0.3;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.container{
+    padding-left: 15%;
+    width: 100%;
+}
+.caption>a>:hover{
+    text-decoration: none;
+}
+.color_grey{
+    background-color: lightgray;
+}
+#query{
+    background-image: url(img/query3.jpg);
+    background-size: cover;
+    height: 90%;
+    
+}
+#ques{
+    padding-top: 2%;
+    padding-bottom:0%;
+}
+#c{
+    background-color: rgba(0,0,0,0.3);
+    width: 60%;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 0px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+input[type=submit]{
+    border-radius: 3px;
+    border: 0px;
+   background-color: lightpink;
+  padding: 10px 18px;
+  text-decoration: none;
+  
+}
+ #foot_er1{
+     background-color: lightgray; background-size: cover; padding-top: 1%; padding-bottom: 1%
+ }
+ #foot_er2{
+      padding-top:  10px ;
+    color:purple;
+ width: 100%;
+ font-size: 20px;
+ }
+
